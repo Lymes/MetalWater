@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B70768E1F84443000894EB6 /* serenade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B70768C1F8442BA00894EB6 /* serenade.mp3 */; };
+		1B7076901F85124900894EB6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B70768F1F85124900894EB6 /* Launch Screen.storyboard */; };
+		1B860B931AAAEBAA0095CA5F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B860B921AAAEBAA0095CA5F /* AVFoundation.framework */; };
+		1BE598DE2207AF67009A3585 /* RippleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE598DC2207AF66009A3585 /* RippleModel.m */; };
+		1BE598DF2207AF67009A3585 /* Acqua.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1BE598DD2207AF67009A3585 /* Acqua.metal */; };
+		22379E521A93318D00A4EF47 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22379E511A93318D00A4EF47 /* OpenGLES.framework */; };
+		22379E541A93319500A4EF47 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22379E531A93319500A4EF47 /* GLKit.framework */; };
+		225AE9271A9753B0005804AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225AE9161A9753B0005804AB /* Main.storyboard */; };
+		225AE9281A9753B0005804AB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 225AE9181A9753B0005804AB /* background.png */; };
+		225AE9291A9753B0005804AB /* fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 225AE91A1A9753B0005804AB /* fragment.glsl */; };
+		225AE92A1A9753B0005804AB /* vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 225AE91B1A9753B0005804AB /* vertex.glsl */; };
+		225AE92C1A9753B0005804AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9201A9753B0005804AB /* AppDelegate.m */; };
+		225AE92D1A9753B0005804AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9211A9753B0005804AB /* main.m */; };
+		225AE92F1A9753B0005804AB /* RippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9261A9753B0005804AB /* RippleViewController.m */; };
+		225AE9311A97577D005804AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225AE9301A97577D005804AB /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B70768C1F8442BA00894EB6 /* serenade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = serenade.mp3; sourceTree = "<group>"; };
+		1B70768F1F85124900894EB6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1B860B921AAAEBAA0095CA5F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1BE598DB2207AF66009A3585 /* RippleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleModel.h; sourceTree = "<group>"; };
+		1BE598DC2207AF66009A3585 /* RippleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleModel.m; sourceTree = "<group>"; };
+		1BE598DD2207AF67009A3585 /* Acqua.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Acqua.metal; sourceTree = "<group>"; };
+		22379E281A93314800A4EF47 /* MetalWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22379E2C1A93314800A4EF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22379E511A93318D00A4EF47 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		22379E531A93319500A4EF47 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		225AE9171A9753B0005804AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		225AE9181A9753B0005804AB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		225AE91A1A9753B0005804AB /* fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment.glsl; sourceTree = "<group>"; };
+		225AE91B1A9753B0005804AB /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
+		225AE91F1A9753B0005804AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		225AE9201A9753B0005804AB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		225AE9211A9753B0005804AB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		225AE9251A9753B0005804AB /* RippleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleViewController.h; sourceTree = "<group>"; };
+		225AE9261A9753B0005804AB /* RippleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleViewController.m; sourceTree = "<group>"; };
+		225AE9301A97577D005804AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22379E251A93314800A4EF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B860B931AAAEBAA0095CA5F /* AVFoundation.framework in Frameworks */,
+				22379E541A93319500A4EF47 /* GLKit.framework in Frameworks */,
+				22379E521A93318D00A4EF47 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE598DA2207AF66009A3585 /* RippleModel */ = {
+			isa = PBXGroup;
+			children = (
+				1BE598DB2207AF66009A3585 /* RippleModel.h */,
+				1BE598DC2207AF66009A3585 /* RippleModel.m */,
+			);
+			path = RippleModel;
+			sourceTree = "<group>";
+		};
+		22379E1F1A93314800A4EF47 = {
+			isa = PBXGroup;
+			children = (
+				22379E2A1A93314800A4EF47 /* MetalWater */,
+				22A53DE41A960D41000C6EAD /* frameworks */,
+				22379E291A93314800A4EF47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22379E291A93314800A4EF47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22379E281A93314800A4EF47 /* MetalWater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22379E2A1A93314800A4EF47 /* MetalWater */ = {
+			isa = PBXGroup;
+			children = (
+				225AE91C1A9753B0005804AB /* src */,
+				225AE9151A9753B0005804AB /* resources */,
+				225AE9301A97577D005804AB /* Images.xcassets */,
+				225AE9181A9753B0005804AB /* background.png */,
+				22379E2B1A93314800A4EF47 /* Supporting Files */,
+			);
+			path = MetalWater;
+			sourceTree = "<group>";
+		};
+		22379E2B1A93314800A4EF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22379E2C1A93314800A4EF47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		225AE9151A9753B0005804AB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B70768C1F8442BA00894EB6 /* serenade.mp3 */,
+				225AE9161A9753B0005804AB /* Main.storyboard */,
+				225AE9191A9753B0005804AB /* Shader */,
+				1B70768F1F85124900894EB6 /* Launch Screen.storyboard */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		225AE9191A9753B0005804AB /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				225AE91A1A9753B0005804AB /* fragment.glsl */,
+				225AE91B1A9753B0005804AB /* vertex.glsl */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		225AE91C1A9753B0005804AB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1BE598DD2207AF67009A3585 /* Acqua.metal */,
+				1BE598DA2207AF66009A3585 /* RippleModel */,
+				225AE91F1A9753B0005804AB /* AppDelegate.h */,
+				225AE9201A9753B0005804AB /* AppDelegate.m */,
+				225AE9251A9753B0005804AB /* RippleViewController.h */,
+				225AE9261A9753B0005804AB /* RippleViewController.m */,
+				225AE9211A9753B0005804AB /* main.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		22A53DE41A960D41000C6EAD /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B860B921AAAEBAA0095CA5F /* AVFoundation.framework */,
+				22379E531A93319500A4EF47 /* GLKit.framework */,
+				22379E511A93318D00A4EF47 /* OpenGLES.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22379E271A93314800A4EF47 /* MetalWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22379E4B1A93314800A4EF47 /* Build configuration list for PBXNativeTarget "MetalWater" */;
+			buildPhases = (
+				22379E241A93314800A4EF47 /* Sources */,
+				22379E251A93314800A4EF47 /* Frameworks */,
+				22379E261A93314800A4EF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalWater;
+			productName = GLKTest;
+			productReference = 22379E281A93314800A4EF47 /* MetalWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22379E201A93314800A4EF47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = TopGlobal;
+				TargetAttributes = {
+					22379E271A93314800A4EF47 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = QVFBZ7RHN2;
+					};
+				};
+			};
+			buildConfigurationList = 22379E231A93314800A4EF47 /* Build configuration list for PBXProject "MetalWater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22379E1F1A93314800A4EF47;
+			productRefGroup = 22379E291A93314800A4EF47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22379E271A93314800A4EF47 /* MetalWater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22379E261A93314800A4EF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B70768E1F84443000894EB6 /* serenade.mp3 in Resources */,
+				225AE9291A9753B0005804AB /* fragment.glsl in Resources */,
+				225AE9311A97577D005804AB /* Images.xcassets in Resources */,
+				225AE92A1A9753B0005804AB /* vertex.glsl in Resources */,
+				225AE9271A9753B0005804AB /* Main.storyboard in Resources */,
+				225AE9281A9753B0005804AB /* background.png in Resources */,
+				1B7076901F85124900894EB6 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22379E241A93314800A4EF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225AE92D1A9753B0005804AB /* main.m in Sources */,
+				1BE598DE2207AF67009A3585 /* RippleModel.m in Sources */,
+				225AE92F1A9753B0005804AB /* RippleViewController.m in Sources */,
+				225AE92C1A9753B0005804AB /* AppDelegate.m in Sources */,
+				1BE598DF2207AF67009A3585 /* Acqua.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		225AE9161A9753B0005804AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225AE9171A9753B0005804AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22379E491A93314800A4EF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22379E4A1A93314800A4EF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22379E4C1A93314800A4EF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QVFBZ7RHN2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"framework/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MetalWater/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lymes.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MetalWater;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22379E4D1A93314800A4EF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QVFBZ7RHN2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"framework/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MetalWater/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lymes.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MetalWater;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22379E231A93314800A4EF47 /* Build configuration list for PBXProject "MetalWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22379E491A93314800A4EF47 /* Debug */,
+				22379E4A1A93314800A4EF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22379E4B1A93314800A4EF47 /* Build configuration list for PBXNativeTarget "MetalWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22379E4C1A93314800A4EF47 /* Debug */,
+				22379E4D1A93314800A4EF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22379E201A93314800A4EF47 /* Project object */;
+}
