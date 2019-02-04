@@ -16,8 +16,6 @@
 		22379E541A93319500A4EF47 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22379E531A93319500A4EF47 /* GLKit.framework */; };
 		225AE9271A9753B0005804AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225AE9161A9753B0005804AB /* Main.storyboard */; };
 		225AE9281A9753B0005804AB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 225AE9181A9753B0005804AB /* background.png */; };
-		225AE9291A9753B0005804AB /* fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 225AE91A1A9753B0005804AB /* fragment.glsl */; };
-		225AE92A1A9753B0005804AB /* vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 225AE91B1A9753B0005804AB /* vertex.glsl */; };
 		225AE92C1A9753B0005804AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9201A9753B0005804AB /* AppDelegate.m */; };
 		225AE92D1A9753B0005804AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9211A9753B0005804AB /* main.m */; };
 		225AE92F1A9753B0005804AB /* RippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9261A9753B0005804AB /* RippleViewController.m */; };
@@ -37,8 +35,6 @@
 		22379E531A93319500A4EF47 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		225AE9171A9753B0005804AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		225AE9181A9753B0005804AB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		225AE91A1A9753B0005804AB /* fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment.glsl; sourceTree = "<group>"; };
-		225AE91B1A9753B0005804AB /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
 		225AE91F1A9753B0005804AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		225AE9201A9753B0005804AB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		225AE9211A9753B0005804AB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -112,19 +108,9 @@
 			children = (
 				1B70768C1F8442BA00894EB6 /* serenade.mp3 */,
 				225AE9161A9753B0005804AB /* Main.storyboard */,
-				225AE9191A9753B0005804AB /* Shader */,
 				1B70768F1F85124900894EB6 /* Launch Screen.storyboard */,
 			);
 			path = resources;
-			sourceTree = "<group>";
-		};
-		225AE9191A9753B0005804AB /* Shader */ = {
-			isa = PBXGroup;
-			children = (
-				225AE91A1A9753B0005804AB /* fragment.glsl */,
-				225AE91B1A9753B0005804AB /* vertex.glsl */,
-			);
-			path = Shader;
 			sourceTree = "<group>";
 		};
 		225AE91C1A9753B0005804AB /* src */ = {
@@ -210,9 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B70768E1F84443000894EB6 /* serenade.mp3 in Resources */,
-				225AE9291A9753B0005804AB /* fragment.glsl in Resources */,
 				225AE9311A97577D005804AB /* Images.xcassets in Resources */,
-				225AE92A1A9753B0005804AB /* vertex.glsl in Resources */,
 				225AE9271A9753B0005804AB /* Main.storyboard in Resources */,
 				225AE9281A9753B0005804AB /* background.png in Resources */,
 				1B7076901F85124900894EB6 /* Launch Screen.storyboard in Resources */,
