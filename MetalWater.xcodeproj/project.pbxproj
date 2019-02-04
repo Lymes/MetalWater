@@ -12,14 +12,14 @@
 		1B860B931AAAEBAA0095CA5F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B860B921AAAEBAA0095CA5F /* AVFoundation.framework */; };
 		1BE598DE2207AF67009A3585 /* RippleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE598DC2207AF66009A3585 /* RippleModel.m */; };
 		1BE598DF2207AF67009A3585 /* Acqua.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1BE598DD2207AF67009A3585 /* Acqua.metal */; };
+		1BE598E42207BA4B009A3585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE598E22207BA4B009A3585 /* Images.xcassets */; };
+		1BE598E52207BA4B009A3585 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BE598E32207BA4B009A3585 /* background.png */; };
 		22379E521A93318D00A4EF47 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22379E511A93318D00A4EF47 /* OpenGLES.framework */; };
 		22379E541A93319500A4EF47 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22379E531A93319500A4EF47 /* GLKit.framework */; };
 		225AE9271A9753B0005804AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225AE9161A9753B0005804AB /* Main.storyboard */; };
-		225AE9281A9753B0005804AB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 225AE9181A9753B0005804AB /* background.png */; };
 		225AE92C1A9753B0005804AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9201A9753B0005804AB /* AppDelegate.m */; };
 		225AE92D1A9753B0005804AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9211A9753B0005804AB /* main.m */; };
 		225AE92F1A9753B0005804AB /* RippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AE9261A9753B0005804AB /* RippleViewController.m */; };
-		225AE9311A97577D005804AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225AE9301A97577D005804AB /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,18 +29,18 @@
 		1BE598DB2207AF66009A3585 /* RippleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleModel.h; sourceTree = "<group>"; };
 		1BE598DC2207AF66009A3585 /* RippleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleModel.m; sourceTree = "<group>"; };
 		1BE598DD2207AF67009A3585 /* Acqua.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Acqua.metal; sourceTree = "<group>"; };
+		1BE598E22207BA4B009A3585 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1BE598E32207BA4B009A3585 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		22379E281A93314800A4EF47 /* MetalWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22379E2C1A93314800A4EF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22379E511A93318D00A4EF47 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		22379E531A93319500A4EF47 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		225AE9171A9753B0005804AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		225AE9181A9753B0005804AB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		225AE91F1A9753B0005804AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		225AE9201A9753B0005804AB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		225AE9211A9753B0005804AB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		225AE9251A9753B0005804AB /* RippleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleViewController.h; sourceTree = "<group>"; };
 		225AE9261A9753B0005804AB /* RippleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleViewController.m; sourceTree = "<group>"; };
-		225AE9301A97577D005804AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,6 @@
 			children = (
 				225AE91C1A9753B0005804AB /* src */,
 				225AE9151A9753B0005804AB /* resources */,
-				225AE9301A97577D005804AB /* Images.xcassets */,
-				225AE9181A9753B0005804AB /* background.png */,
 				22379E2B1A93314800A4EF47 /* Supporting Files */,
 			);
 			path = MetalWater;
@@ -106,6 +104,8 @@
 		225AE9151A9753B0005804AB /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				1BE598E32207BA4B009A3585 /* background.png */,
+				1BE598E22207BA4B009A3585 /* Images.xcassets */,
 				1B70768C1F8442BA00894EB6 /* serenade.mp3 */,
 				225AE9161A9753B0005804AB /* Main.storyboard */,
 				1B70768F1F85124900894EB6 /* Launch Screen.storyboard */,
@@ -196,9 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B70768E1F84443000894EB6 /* serenade.mp3 in Resources */,
-				225AE9311A97577D005804AB /* Images.xcassets in Resources */,
+				1BE598E52207BA4B009A3585 /* background.png in Resources */,
+				1BE598E42207BA4B009A3585 /* Images.xcassets in Resources */,
 				225AE9271A9753B0005804AB /* Main.storyboard in Resources */,
-				225AE9281A9753B0005804AB /* background.png in Resources */,
 				1B7076901F85124900894EB6 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
